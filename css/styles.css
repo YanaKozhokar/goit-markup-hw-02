@@ -7,13 +7,12 @@
     --secondary-text-color: #FFFFFF;
     --color-accent: #2196F3;
 }
+body a{
+text-decoration: none;
+}
 
 .header {
     background-color: var(--background-color-white);
-}
-
-a {
-    text-decoration: none;
 }
 
 .logo:focus,
