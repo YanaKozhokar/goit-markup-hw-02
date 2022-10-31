@@ -15,21 +15,16 @@ body {
   letter-spacing: 0.03em;
 }
 
-header {
+.header__nav {
   background-color: var(--background-color-white);
   letter-spacing: 0.02em;
 }
 
-h2,
-h3 {
-  color: var(--title-color);
-}
-
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -106,6 +101,7 @@ ul {
   font-size: 14px;
   line-height: 1.16;
   text-transform: uppercase;
+  color: var(--title-color);
 }
 
 .about-us__advantages-paragraph {
@@ -119,6 +115,7 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  color: var(--title-color);
 }
 
 /* Our team */
@@ -136,6 +133,7 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  color: var(--title-color);
 }
 
 .our-team__list-item-position {
@@ -206,6 +204,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--title-color);
 }
 
 .works__paragraph {
