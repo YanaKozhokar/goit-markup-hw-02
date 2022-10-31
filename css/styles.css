@@ -169,13 +169,13 @@ body {
 
 .footer__contacts-adress {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: var(--secondary-text-color);
 }
 
 .footer__contacts-item {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 
