@@ -109,7 +109,6 @@ ul {
 }
 
 .about-us__advantages-paragraph {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -140,7 +139,6 @@ ul {
 }
 
 .our-team__list-item-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -166,14 +164,12 @@ ul {
 }
 
 .footer__contacts-adress {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
 }
 
 .footer__contacts-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
@@ -201,8 +197,8 @@ ul {
 
 .works__list-item {
   box-sizing: border-box;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .works__title {
@@ -213,7 +209,6 @@ ul {
 }
 
 .works__paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
