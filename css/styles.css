@@ -33,6 +33,8 @@ ul {
     list-style: none;
 }
 
+/* Header */
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -61,6 +63,8 @@ ul {
     color: var(--color-accent);
 }
 
+/* Hero */
+
 .hero {
     background-color: var(--background-color-dark);
 }
@@ -87,4 +91,61 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
+}
+
+/* About us */
+
+.about-us {
+    background-color: var(--background-color-white);
+}
+
+.about-us__advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    text-transform: uppercase;
+}
+
+.about-us__advantages-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.our-team__title,
+.about-us__services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Our team */
+
+.our-team {
+background-color: var(--background-color-grey);
+}
+
+.our-team__list-item {
+    background-color: var(--background-color-white);
+}
+
+.our-team__list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.our-team__list-item-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--background-color-dark);
 }
