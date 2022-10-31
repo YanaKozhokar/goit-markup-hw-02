@@ -1,0 +1,22 @@
+:root {
+    --background-color-dark: #2F303A;
+    --background-color-grey: #F5F4FA;
+    --background-color-white: #FFFFFF;
+    --title-color: #212121;
+    --primary-text-color: #757575;
+    --secondary-text-color: #FFFFFF;
+    --color-accent: #2196F3;
+}
+
+.header {
+    background-color: var(--background-color-white);
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo:focus,
+.logo:hower {
+    text-decoration: underline;
+}
