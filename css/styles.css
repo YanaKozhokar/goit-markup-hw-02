@@ -6,16 +6,21 @@
     --primary-text-color: #757575;
     --secondary-text-color: #FFFFFF;
     --color-accent: #2196F3;
+    --logo-color: #000000;
 }
-body a{
-text-decoration: none;
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 
 .header {
     background-color: var(--background-color-white);
 }
 
-.logo:focus,
-.logo:hower {
-    text-decoration: underline;
+.logo {
+    color: var(--logo-color);
 }
