@@ -29,10 +29,6 @@ header {
 }
 
 .logo {
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -45,20 +41,22 @@ header {
     color: var(--color-accent);
 }
 
+.header__contacts-item,
 .header__nav-list-item {
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color);
 }
 
-.header__nav-list-item:hower,
+.header__contacts-item:hover,
+.header__contacts-item:focus,
+.header__nav-list-item:hover,
 .header__nav-list-item:focus {
     color: var(--color-accent);
 }
+
+
 
 h2,
 h3 {
