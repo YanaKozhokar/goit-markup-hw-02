@@ -43,12 +43,25 @@ body {
   color: var(--color-accent);
 }
 
-.header__contacts-item,
 .header__nav-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-color);
+}
+
+.header__nav-list-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-accent);
+}
+
+.header__contacts-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
 }
 
 .header__contacts-item:hover,
@@ -75,6 +88,7 @@ body {
 }
 
 .hero__button {
+  font-family: 'Roboto', sans-serif;
   background: var(--color-accent);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -168,12 +182,14 @@ body {
 }
 
 .footer__contacts-adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
 }
 
 .footer__contacts-item {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
@@ -186,6 +202,7 @@ body {
 /* Portfolio*/
 
 .works__filter-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
